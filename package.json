@@ -2,7 +2,11 @@
   "name": "oh-mynode",
   "version": "0.0.1",
   "description": "oh-mynode CLI",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "danielgl",
+    "email": "daniel.dxdb@gmail.com"
+  },
   "types": "build/types/types.d.ts",
   "bin": {
     "oh-mynode": "bin/oh-mynode"
