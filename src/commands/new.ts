@@ -19,7 +19,7 @@ module.exports = {
         .options.dir || 'oh-mynode'}`
     )
     shell.cd(parameters.options.dir || 'oh-mynode')
-    shell.rm('.git');
+    shell.rm('.git')
     print.info('Install dependencies...')
     if (shell.which('yarn')) {
       shell.exec('yarn install')
